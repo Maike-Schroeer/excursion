@@ -4,23 +4,34 @@ body{
     text-align: center;
 }
 
-h1 {
+/* HEADINGS */
+
+.main_heading {
     color: white;
     font-size: 50px;
+    font-weight: normal;
 }
 
-a {
-    color: aquamarine;
-    font-size: 16px;
-}
-
-h2 {
+.sub_heading {
     font-size: 42px;
     font-weight: 300;
     color: white;
 }
 
-p {
+/* LINKS */
+
+.link {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.info {
     font-size: 21px;
     color: gray;
+}
+
+.copyright {
+    text-align: right;
+    color: gray;
+    font-size: 21px;
 }
